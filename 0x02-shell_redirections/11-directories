@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -tpe d ! -path . -print | wc -|
+find . -type d ! -path . -print | wc -l|
